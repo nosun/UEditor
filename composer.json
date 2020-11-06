@@ -7,7 +7,7 @@
         "extension",
         "ueditor"
     ],
-    "homepage": "https://github.com/codingyu/UEditor",
+    "homepage": "https://github.com/nosun/UEditor",
     "license": "MIT",
     "authors": [
         {
@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Codingyu\\Ueditor\\": "src/"
+            "Nosun\\Ueditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Codingyu\\Ueditor\\UeditorServiceProvider"
+                "Nosun\\Ueditor\\UeditorServiceProvider"
             ]
         }
     }

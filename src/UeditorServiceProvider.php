@@ -1,6 +1,6 @@
 <?php
 
-namespace Codingyu\Ueditor;
+namespace Nosun\Ueditor;
 
 use Encore\Admin\Form;
 use Encore\Admin\Admin;

@@ -1,20 +1,18 @@
 UEditor extension for laravel-admin
 ======
 
-这是一个 `laravel-admin` 扩展，用来将 [UEditor](https://ueditor.baidu.com/website/index.html) 集成进 `laravel-admin` 的表单中，~~依赖 [overtrue/laravel-ueditor](https://github.com/overtrue/laravel-ueditor)~~ 依赖 [codingyu/laravel-ueditor](https://github.com/codingyu/laravel-ueditor)
+这是一个 `laravel-admin` 扩展，用来将 [UEditor](https://ueditor.baidu.com/website/index.html) 集成进 `laravel-admin` 的表单中，~~依赖 [overtrue/laravel-ueditor](https://github.com/overtrue/laravel-ueditor)~~ 依赖 [nosun/laravel-ueditor](https://github.com/nosun/laravel-ueditor)
 
 ## 安装
 
 ```bash
-composer require codingyu/ueditor
+composer require nosun/ueditor
 ```
 
 发布资源
 ```bash
 // V3.*
-php artisan vendor:publish --provider=Codingyu\LaravelUEditor\UEditorServiceProvider
-// V2.*
-php artisan vendor:publish --provider=Overtrue\LaravelUEditor\UEditorServiceProvider
+php artisan vendor:publish --provider=Nosun\LaravelUEditor\UEditorServiceProvider
 ```
 
 ## 配置
@@ -39,7 +37,7 @@ php artisan vendor:publish --provider=Overtrue\LaravelUEditor\UEditorServiceProv
 
 ```
 
-后端配置 `config/ueditor.php`，参考 ~~[overtrue/laravel-ueditor](https://github.com/overtrue/laravel-ueditor)~~ [codingyu/laravel-ueditor](https://github.com/codingyu/laravel-ueditor)
+后端配置 `config/ueditor.php`，参考 ~~[overtrue/laravel-ueditor](https://github.com/overtrue/laravel-ueditor)~~ [nosun/laravel-ueditor](https://github.com/nosun/laravel-ueditor)
 
 ## 使用
 

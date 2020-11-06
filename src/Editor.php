@@ -1,6 +1,6 @@
 <?php
 
-namespace Codingyu\Ueditor;
+namespace Nosun\Ueditor;
 
 use Encore\Admin\Form\Field;
 
@@ -16,7 +16,7 @@ class Editor extends Field
     public function render()
     {
         $name = $this->formatName($this->column);
-        
+
         $jsId = \Illuminate\Support\Str::studly(\Illuminate\Support\Str::slug($this->id));
 
         $config = Ueditor::config('config', []);
